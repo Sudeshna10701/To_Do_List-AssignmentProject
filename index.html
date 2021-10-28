@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My first Commit</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Todo list</title>
+    
 </head>
+
 <body>
+    <script defer src="./server.js"></script>  
+    <header>
+        <div id="myDIV" class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="myUL">
+      </ul>
+    </header>
+    <footer>
+        <div>
+            <a href="https://find-kartik-gupta.vercel.app/">Sudeshna Dutta</a>
+        </div>
+        <div>
+            <a href="https://github.com/Sudeshna10701">
+                <img class="social" src="./assets/images/github.png" alt="" />
+            </a>
+            <a href="https://www.instagram.com/_.su.de.sh.na._/">
+                <img class="social" src="./assets/images/instagram.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/sudeshna-dutta-843771202/">
+                <img class="social" src="./assets/images/linkedin.png" alt="" />
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
